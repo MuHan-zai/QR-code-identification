@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="armor_detect_self" name="aaa" type="aaa" output="screen"> 
+        <rosparam command="load" file="$(find armor_detect_self)/config/armor_detect.yaml"/>
+    </node>
+</launch>

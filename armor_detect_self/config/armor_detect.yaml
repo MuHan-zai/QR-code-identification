@@ -1,0 +1,14 @@
+ArmorDetect:
+  debug_flag:            false
+  enemy_color:           0 #蓝色为0，红色为1
+  binary_threshold:      110 
+  mode:                  1 #Blue为0，Red为1 Lurker为2
+  light_ratio_max:       8.0
+  light_ratio_min:       1.5
+  light_max_angle_:      60
+  light_min_angle_:      120
+  armor_max_angle_:      30.0
+  light_max_angle_diff_: 30 #15
+  armor_max_ratio_:       15 #a3.8
+  armor_min_ratio_:       0.8
+  armor_light_ratio_:     1.5
